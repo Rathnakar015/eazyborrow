@@ -1,9 +1,5 @@
-/**
- * @format
- */
+export { default as LoginScreen } from './LoginScreen/LoginScreen'
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+export { default as HomeScreen } from './HomeScreen/HomeScreen'
 
-AppRegistry.registerComponent(appName, () => App);
+export { default as RegistrationScreen } from './RegistrationScreen/RegistrationScreen'
